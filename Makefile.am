@@ -17,6 +17,7 @@ endif
 
 libminizip_la_SOURCES = \
 	ioapi.c \
+	mztools.c \
 	unzip.c \
 	zip.c \
 	${iowin32_src}
@@ -27,6 +28,7 @@ minizip_includedir = $(includedir)/minizip
 minizip_include_HEADERS = \
 	crypt.h \
 	ioapi.h \
+	mztools.h \
 	unzip.h \
 	zip.h \
 	${iowin32_h}
